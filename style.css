@@ -36,7 +36,7 @@ header{
 .header-wraper{
     
     justify-content: space-between;
-    align-items: center;
+  
 }
 a{
     text-decoration: none;
@@ -68,7 +68,7 @@ a, button{
 }
 .btn-secondary{
     background-color: var(--vary-light-gray);
-    color: var(--bright-red)
+    color: var(--bright-red);
   
 }
 
@@ -76,30 +76,31 @@ ul, ol{
     list-style: none;
 }
 h1, h2, h3, h4, h5, h6{
-    color: var(--very-dark-blue);
+    color: var(--dark-blue);
 }
 
-.primary-menu li a{
+.primary-menu li a {
     padding-right: 6px;
     padding-left: 6px;
 }
 /* herosection */
-.hero{
+.hero {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.col-left{
+.col-left p{
+    width: 60%;
 
 }
-.col-right{
+.col-right {
    z-index: 2;
    
 }
 
-.col-left, .col-right{
+.col-left, .col-right {
     width: 50%;
 }
-.bg-patern{
+.bg-patern {
     position: absolute;
     top: -120px;
     right: -30px;
@@ -110,19 +111,46 @@ font-size: 52px;
 margin-bottom: 25px;
 line-height: 1.2;
 }
-.hero-text{
-
+.hero-text {
 margin-bottom: 30px;
 }
+
 .hero-img{
     margin-right: -20px;
     z-index: 2;
     position: relative;
     
+    
+}
+.hero-img img{
+    width: 100%;
 }
 /* abuth  */
 .about h2{
     font-size: 40px;
     line-height: 1.2;
-    margin-bottom: ;
+    margin-bottom:25px ;
 }
+.about-content {
+    padding-right: 0px;
+}
+.about-card{
+    margin-bottom: 40px;
+}
+.card-number{
+    background-color: var(--bright-red);
+    width: 52px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    margin-right: 30px;
+}
+.card-content{
+    flex: 0.7;
+}
+.card-content h3{
+    margin-bottom: 20px;
+}
+
